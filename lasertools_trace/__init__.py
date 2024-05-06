@@ -1,6 +1,6 @@
 """Initialization"""
 
-from tracedev.models.base import (
+from lasertools_trace.models.base import (
     ParameterScales,
     FourierScales,
     Labels,
@@ -9,4 +9,4 @@ from tracedev.models.base import (
     ParameterInformation,
     _TraceBase,
 )
-from tracedev.trace_model import *
+from lasertools_trace.trace_model import *

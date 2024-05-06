@@ -1,8 +1,8 @@
 """Define an trace model template"""
 import dataclasses
 import numpy as np
-import pulsenlodev as nlo
-import rffthelperdev as rfft
+import lasertools_pulsenlo as nlo
+import lasertools_rffthelper as rfft
 
 
 @dataclasses.dataclass
